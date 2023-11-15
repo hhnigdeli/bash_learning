@@ -1,0 +1,7 @@
+#!/bin/bash
+
+time=$(date +%H:%m:%S)
+
+echo "hello $USER time is $time now!"
+
+exit 0

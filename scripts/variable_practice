@@ -1,0 +1,18 @@
+#!/bin/bash
+
+student="SaRah"
+echo "Hello ${student}"
+
+#Commonly used shell variables
+echo "HOME -> ${HOME}, USER -> ${USER}, HOSTNAME -> ${HOSTNAME}, HOSTTYPE -> ${HOSTTYPE}"
+
+#Parameter expansion
+
+echo "${student:2:3}"
+echo "${student: -1:2}"
+echo "${student,}"
+echo "${student,,}"
+echo "${student^}"
+echo "${student^^}"
+echo "${#student}"
+exit 0
