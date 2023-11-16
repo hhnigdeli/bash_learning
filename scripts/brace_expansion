@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo {1..10}
+echo month{0..3}/day{1..2}.txt
+
+exit 0
